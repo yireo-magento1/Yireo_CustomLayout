@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Yireo CustomLayout for Magento 
+ *
+ * @package     Yire_CustomLayout
+ * @author      Yireo (http://www.yireo.com/)
+ * @copyright   Copyright (c) 2009 Yireo (http://www.yireo.com/)
+ * @license     Open Software License
+ */
+-->
+<config>
+
+    <modules>
+        <Yireo_CustomLayout>
+            <version>0.0.1</version>
+        </Yireo_CustomLayout>
+    </modules>
+
+    <frontend>
+        <secure_url>
+            <contacts>/contacts</contacts>
+        </secure_url>
+        <layout>
+            <updates>
+                <customlayout>
+                    <file>customlayout.xml</file>
+                </customlayout>
+            </updates>
+        </layout>
+    </frontend>
+</config>
